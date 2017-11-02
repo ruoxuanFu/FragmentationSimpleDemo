@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d4d4d4"
+    tools:context="com.example.ruoxuanfu.myapplication.MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/chooseList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:layout_weight="3">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
